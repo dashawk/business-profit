@@ -1,0 +1,29 @@
+{
+	"name": "business-profit",
+	"version": "1.0.0",
+	"authors": [
+		"Jason P <jmpanugaling@gmail.com>"
+	],
+	"description": "Equation for business calculations",
+	"main": "business-profit.js",
+	"keywords": [
+		"business-profit",
+		"profit-calculator",
+		"buisness calculator"
+	],
+	"license": "MIT",
+	"homepage": "",
+	"ignore": [
+		"**/.*",
+		".travis.yml",
+		"gulpfile.js",
+		"package-lock.json",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"angular": "^1.6.6"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"name": "business-profit",
+	"version": "1.0.0",
+	"description": "Equation for business calculations",
+	"main": "business-profit.js",
+	"scripts": {
+		"init": "npm install",
+		"install": "bower install"
+	},
+	"author": "Jason P <jmpanugaling@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"gulp": "^3.9.1"
+	}
+}

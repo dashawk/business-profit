@@ -2,7 +2,7 @@
 	"name": "business-profit",
 	"version": "1.0.0",
 	"description": "Equation for business calculations",
-	"main": "business-profit.js",
+	"main": "dist/business-profit.js",
 	"scripts": {
 		"init": "npm install",
 		"install": "bower install"
@@ -11,6 +11,8 @@
 	"license": "MIT",
 	"devDependencies": {
 		"bower": "^1.8.2",
-		"gulp": "^3.9.1"
+		"gulp": "^3.9.1",
+		"gulp-uglify": "^3.0.0",
+		"pump": "^1.0.2"
 	}
 }

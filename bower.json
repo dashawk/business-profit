@@ -5,7 +5,7 @@
 		"Jason P <jmpanugaling@gmail.com>"
 	],
 	"description": "Equation for business calculations",
-	"main": "business-profit.js",
+	"main": "dist/business-profit.js",
 	"keywords": [
 		"business-profit",
 		"profit-calculator",

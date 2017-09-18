@@ -10,6 +10,7 @@
 			service.getGrossProfit = getGrossProfit;
 			service.getInclusive = getInclusive;
 			service.getPriceWithQuantity = getPriceWithQuantity;
+			service.getPriceWithPercent = getPriceWithPercent;
 			
 			return service;
 			
@@ -24,6 +25,9 @@
 			}
 			function getPriceWithQuantity(price, quantity) {
 				return _n(price) * _n(quantity);
+			}
+			function getPriceWithPercent(buyPrice, percentage) {
+				return _n(buyPrice) + (_n(buyPrice) * _n(percentage) / 100);
 			}
 			
 			/**
